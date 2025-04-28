@@ -1,0 +1,16 @@
+whisper-env
+transcription-logs
+*.log
+*.log.*
+*.log.*.*
+*.log.*.*.*
+*.log.*.*.*.*
+*.log.*.*.*.*.*
+*.log.*.*.*.*.*.*
+*.txt
+*.txt.*
+*.txt.*.*
+*.txt.*.*.*
+*.txt.*.*.*.*
+*.txt.*.*.*.*.*
+*.txt.*.*.*.*.*.*
