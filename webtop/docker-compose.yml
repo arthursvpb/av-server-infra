@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  webtop:
+    image: lscr.io/linuxserver/webtop:ubuntu-mate
+    container_name: webtop
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Sao_Paulo
+      - CUSTOM_USER=${WEBTOP_USERNAME}
+      - PASSWORD=${WEBTOP_PASSWORD}
+    volumes:
+      - /media/hdd/Webtop:/config
+    ports:
+      - 3000:3000
+    shm_size: "1gb"
+    restart: unless-stopped
